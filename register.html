@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> MMU Event Planner </title>
+		<link rel="stylesheet" href="C:\Users\Jeruto\Desktop\events\css\style.css"  type="text/css">
+	</head>
+	<body>
+		<center>
+		<h1> MMU events </h1>
+		</center>
+		<nav>
+			<ul>
+				<li><a href= "index.html"> Home </a></li>
+				<li><a href= "about.html"> About </a></li>
+				<li><a href= "login.html"> Login </a></li>
+				<li><a href= "register.html"> Register </a></li>
+			</ul>
+		</nav>
+	<form
+		action="action_page.php" style="border:3px solid #ccc">
+	<div class="container">
+		<h1>Sign up</h1>
+			<p> Fill here to create an account.</p>
+	<hr>
+  <label for="email"><b>Email</b></label>
+  <input type="text" placeholder="Enter Email" name="email" required>
+  <label for="psw"><b>Password</b></label>
+   <input type="password" placeholder="Enter password" name="psw" required>
+   
+   <label for="psw-confirm"><b>Repeat  password</b></label>
+   <input type="password" placeholder="confirm password" name="psw-repeat" required>
+   
+   <label>
+   <input 
+   type="checkbox"
+   checked="checked"
+   name="remember"
+   style="margin-bottom:15px">Remember me
+   </label>
+   
+   <p>By creating an account you agree to our<a href="#" style="color: maroon">Terms and conditions.</a></p>
+   </div>
+   <fieldset>
+		<legend>PERSONAL DETAILS</legend>
+		<label for="first name"> First Name:</label><input id="first name" type="text" name="first name"/>
+		<label for="last name"> Last Name:</label><input id="last name" type="text" name="last name"/>
+		<label for="gender"> Gender:</label><input id="gender" type="text" name="gender"/>
+		<label for="date of birth"> Date of Birth:</label><input id="dateofbirth" type="text" name="date of birth"/>
+		<label for="phone number"> Phone number:</label><input id="mobile" type="text" name="mobile"/>
+		<label for="hobbies"> Hobbies:</label><input id="hobbies" type="text" name="hobbies"/>
+		<label for="county"> County:</label>
+		<select id="county">
+		<option value="nairobi">Nairobi</option>
+		<option value="eldoret">Eldoret</option>
+		<option value="mombasa">Mombasa</option>
+		<option value="nakuru">Nakuru</option>
+		<option value="kitale">Kitale</option>
+   </select>
+   <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+   </fieldset>
+   </form>
+</html>
+   
+  
+  
